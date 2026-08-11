@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carlos Navarro — Project Management · Operations · Business Development</title>
+<meta name="description" content="Carlos Navarro — Portfolio profesional. Project Management, Operations y Business Development.">
+<meta name="robots" content="noindex, nofollow">
+
+<!-- Open Graph / social preview (LinkedIn, WhatsApp, etc.) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Carlos Navarro — Project Management · Operations · Business Development">
+<meta property="og:description" content="Convierto ideas en proyectos estructurados y proyectos en resultados medibles.">
+<meta property="og:image" content="og-image.png"> <!-- TODO: cuando publiques, cambia esto a la URL absoluta, ej. https://tu-dominio.com/og-image.png -->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<!-- TODO: sustituye og:url por la URL definitiva una vez publicada la web -->
+<meta property="og:url" content="https://tu-dominio-o-subdominio.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Carlos Navarro — Project Management · Operations · Business Development">
+<meta name="twitter:description" content="Convierto ideas en proyectos estructurados y proyectos en resultados medibles.">
+<meta name="twitter:image" content="og-image.png"> <!-- TODO: misma URL absoluta que og:image -->
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-lang="es">
+
+<!-- ============ TOP RAIL ============ -->
+<div class="rail">
+  <a href="#home" class="rail-brand">
+    <img src="img/brand/gns-mark-black.png" alt="Carlos Navarro Solaz" class="mark mark-black">
+    <img src="img/brand/gns-mark-white.png" alt="Carlos Navarro Solaz" class="mark mark-white">
+  </a>
+  <div class="rail-controls">
+    <button class="lang-btn active" data-set-lang="es">ES</button>
+    <button class="lang-btn" data-set-lang="en">EN</button>
+    <button class="menu-btn" id="menuOpen">
+      <span lang="es">Menú</span><span lang="en">Menu</span>
+    </button>
+  </div>
+</div>
+
+<!-- ============ PROGRESS RAIL ============ -->
+<nav class="progress-rail" id="progressRail">
+  <div class="track"></div>
+  <div class="node" data-target="home"><span class="node-label">Home</span></div>
+  <div class="node" data-target="about"><span class="node-label">About</span></div>
+  <div class="node" data-target="experience"><span class="node-label">Experience</span></div>
+  <div class="node" data-target="projects"><span class="node-label">Projects</span></div>
+  <div class="node" data-target="how-i-work"><span class="node-label">How I Work</span></div>
+  <div class="node" data-target="skills"><span class="node-label">Skills</span></div>
+  <div class="node" data-target="certifications"><span class="node-label">Certifications</span></div>
+  <div class="node" data-target="cv"><span class="node-label">CV</span></div>
+  <div class="node" data-target="contact"><span class="node-label">Contact</span></div>
+</nav>
+
+<!-- ============ FULLSCREEN MENU ============ -->
+<div class="menu-overlay" id="menuOverlay">
+  <button class="menu-close" id="menuClose">
+    <span lang="es">Cerrar ✕</span><span lang="en">Close ✕</span>
+  </button>
+  <div class="menu-list">
+    <a href="#about" class="menu-link"><span class="num">01</span><span lang="es">Sobre mí</span><span lang="en">About</span></a>
+    <a href="#experience" class="menu-link"><span class="num">02</span><span lang="es">Experiencia</span><span lang="en">Experience</span></a>
+    <a href="#projects" class="menu-link"><span class="num">03</span><span lang="es">Proyectos</span><span lang="en">Projects</span></a>
+    <a href="#how-i-work" class="menu-link"><span class="num">04</span><span lang="es">Cómo trabajo</span><span lang="en">How I Work</span></a>
+    <a href="#skills" class="menu-link"><span class="num">05</span><span lang="es">Habilidades</span><span lang="en">Skills</span></a>
+    <a href="#certifications" class="menu-link"><span class="num">06</span><span lang="es">Formación</span><span lang="en">Certifications</span></a>
+    <a href="#cv" class="menu-link"><span class="num">07</span>CV</a>
+    <a href="#contact" class="menu-link"><span class="num">08</span><span lang="es">Contacto</span><span lang="en">Contact</span></a>
+  </div>
+</div>
+
+<!-- ============ HOME / HERO ============ -->
+<section id="home" class="hero">
+  <svg class="hero-graph" viewBox="0 0 500 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <polyline points="0,260 60,240 120,220 180,190 240,200 300,150 360,120 420,70 500,30" stroke="#8F1D2C" stroke-width="2" opacity="0.35"/>
+    <polyline points="0,290 60,285 120,270 180,265 240,250 300,240 360,210 420,190 500,150" stroke="#0D0D0D" stroke-width="1" opacity="0.15"/>
+    <circle cx="500" cy="30" r="4" fill="#8F1D2C" opacity="0.6"/>
+  </svg>
+  <img src="img/portrait/carlos-headshot.png" alt="Carlos Navarro" class="hero-portrait">
+  <div class="hero-inner">
+    <h1 class="hero-name">Carlos Navarro</h1>
+    <div class="hero-role">Project Management · Operations · Business Development</div>
+    <p class="hero-quote">
+      <span lang="es">Convierto ideas en proyectos estructurados y proyectos en resultados medibles.</span>
+      <span lang="en">Turning ideas into structured projects and projects into measurable results.</span>
+    </p>
+    <div class="hero-actions">
+      <a href="#route" class="btn btn-primary"><span lang="es">Explorar mi trabajo ↓</span><span lang="en">Explore my work ↓</span></a>
+      <a href="#cv" class="btn btn-outline"><span lang="es">Descargar CV ↓</span><span lang="en">Download CV ↓</span></a>
+    </div>
+    <div class="hero-meta">
+      <span lang="es">Madrid / Valencia · Abierto a oportunidades</span>
+      <span lang="en">Madrid / Valencia · Open to opportunities</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IMPACT NUMBERS ============ -->
+<section class="section section--dark">
+  <div class="section-inner reveal">
+    <div class="eyebrow"><span lang="es">Impacto</span><span lang="en">Impact</span></div>
+    <h2><span lang="es">No solo gestiono proyectos.</span><span lang="en">I don't just manage projects.</span><br>
+      <span style="color:var(--stone-light); font-weight:700;">
+        <span lang="es">Mejoro el sistema detrás de ellos.</span>
+        <span lang="en">I improve the system behind them.</span>
+      </span>
+    </h2>
+    <div class="impact-grid">
+      <div class="impact-cell">
+        <div class="impact-num" data-count="200" data-suffix="+">0</div>
+        <div class="impact-label"><span lang="es">Track days gestionados</span><span lang="en">Track days managed</span></div>
+      </div>
+      <div class="impact-cell">
+        <div class="impact-num" data-count="60" data-suffix="+">0</div>
+        <div class="impact-label"><span lang="es">Eventos / año</span><span lang="en">Events / year</span></div>
+      </div>
+      <div class="impact-cell">
+        <div class="impact-num" data-count="50" data-prefix="≈" data-suffix="%">0</div>
+        <div class="impact-label"><span lang="es">Crecimiento de ventas</span><span lang="en">Sales growth</span></div>
+      </div>
+      <div class="impact-cell">
+        <div class="impact-num" data-count="32" data-suffix="K">0</div>
+        <div class="impact-label"><span lang="es">Comunidad digital</span><span lang="en">Digital community</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ROUTE CHOICE ============ -->
+<section id="route" class="section">
+  <div class="section-inner reveal">
+    <div class="eyebrow"><span lang="es">Empieza por aquí</span><span lang="en">Start here</span></div>
+    <h2><span lang="es">¿Qué te trae por aquí?</span><span lang="en">What brings you here?</span></h2>
+    <div class="route-grid">
+      <a href="#experience" class="route-card" id="routeRecruiter">
+        <span class="route-icon">👔</span>
+        <h3><span lang="es">Soy reclutador/a</span><span lang="en">I'm a recruiter</span></h3>
+        <p>
+          <span lang="es">Busco una visión rápida de la experiencia, capacidades y resultados profesionales de Carlos.</span>
+          <span lang="en">Looking for a quick overview of Carlos' professional experience, capabilities and results.</span>
+        </p>
+        <span class="route-cta"><span lang="es">Ver perfil profesional →</span><span lang="en">View professional profile →</span></span>
+      </a>
+      <a href="#about" class="route-card" id="routePersonal">
+        <span class="route-icon">👋</span>
+        <h3><span lang="es">Quiero conocer a Carlos</span><span lang="en">I want to know Carlos</span></h3>
+        <p>
+          <span lang="es">Explora sus proyectos, experiencia, intereses y su forma de afrontar los retos.</span>
+          <span lang="en">Explore his projects, experience, interests and the way he approaches challenges.</span>
+        </p>
+        <span class="route-cta"><span lang="es">Explorar el portfolio →</span><span lang="en">Explore the portfolio →</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section gated">
+  <div class="section-inner reveal">
+    <div class="eyebrow">01 · <span lang="es">Sobre mí</span><span lang="en">About</span></div>
+    <div class="about-grid">
+      <div>
+        <img src="img/portrait/carlos-headshot.png" alt="Carlos Navarro" class="about-portrait">
+        <h2><span lang="es">Más que un puesto.</span><span lang="en">More than a job title.</span></h2>
+        <p class="about-subhead">
+          <span lang="es">Mi trayectoria no cabe en una sola etiqueta — y esa combinación es, precisamente, lo que aporto.</span>
+          <span lang="en">My path doesn't fit into a single label — and that combination is exactly what I bring.</span>
+        </p>
+        <div class="about-pillars">
+          <div class="pillar"><span>Project Management</span><span lang="es">→ Planificación</span><span lang="en">→ Planning</span></div>
+          <div class="pillar"><span>Operations</span><span lang="es">→ Ejecución</span><span lang="en">→ Execution</span></div>
+          <div class="pillar"><span>Business Development</span><span lang="es">→ Crecimiento</span><span lang="en">→ Growth</span></div>
+          <div class="pillar"><span lang="es">Mejora continua</span><span lang="en">Continuous Improvement</span><span lang="es">→ Optimización</span><span lang="en">→ Optimisation</span></div>
+        </div>
+      </div>
+      <div>
+        <p class="lede" lang="es">Mi experiencia profesional se ha construido alrededor de una idea: convertir oportunidades en proyectos reales y mejorar los sistemas que hay detrás de ellos.</p>
+        <p class="lede" lang="en">My professional experience has been built around one idea: turning opportunities into real projects and improving the systems behind them.</p>
+        <br>
+        <p lang="es">He trabajado en diferentes áreas —gestión de proyectos, operaciones, desarrollo de negocio, eventos y negocio digital— asumiendo responsabilidades sobre equipos, presupuestos, proveedores, clientes y procesos. Esta experiencia me ha permitido desarrollar una visión transversal del negocio: entender el objetivo, estructurar el proyecto, coordinar su ejecución, medir los resultados y buscar continuamente oportunidades de mejora.</p>
+        <p lang="en">I've worked across different areas — project management, operations, business development, events and digital business — taking responsibility for teams, budgets, suppliers, customers and processes. This experience has given me a cross-functional understanding of business: understanding the objective, structuring the project, coordinating execution, measuring results and continuously identifying opportunities for improvement.</p>
+
+        <div class="about-timeline">
+          <div class="about-tl-item">
+            <div class="about-tl-marker"></div>
+            <div>
+              <div class="about-tl-label"><span lang="es">El punto de partida</span><span lang="en">The starting point</span></div>
+              <p lang="es">En Más4x4 aprendí a leer un negocio a través de sus datos: estructura, tráfico, conversión. Fue mi primer contacto real con la idea de que un sistema bien diseñado vende más que cualquier esfuerzo puntual.</p>
+              <p lang="en">At Más4x4 I learned to read a business through its data: structure, traffic, conversion. It was my first real encounter with the idea that a well-designed system sells more than any one-off effort.</p>
+            </div>
+          </div>
+          <div class="about-tl-item">
+            <div class="about-tl-marker"></div>
+            <div>
+              <div class="about-tl-label"><span lang="es">Donde más he crecido</span><span lang="en">Where I've grown the most</span></div>
+              <p lang="es">En Tandas Privadas empecé a aplicar esa misma lógica a personas, presupuestos y eventos: pasar de gestionar el día a día a diseñar una operación capaz de escalar sin romperse.</p>
+              <p lang="en">At Tandas Privadas I started applying that same logic to people, budgets and events: moving from managing the day-to-day to designing an operation that could scale without breaking.</p>
+            </div>
+          </div>
+          <div class="about-tl-item">
+            <div class="about-tl-marker"></div>
+            <div>
+              <div class="about-tl-label"><span lang="es">Ahora mismo</span><span lang="en">Right now</span></div>
+              <p lang="es">Actualmente estoy orientando mi carrera hacia Project Management y Operations, después de desarrollar experiencia transversal en gestión de proyectos, operaciones, desarrollo de negocio, eventos y negocio digital.</p>
+              <p lang="en">I am currently focusing my career on Project Management and Operations, after gaining cross-functional experience across project management, operations, business development, events and digital business.</p>
+              <p lang="es">Estoy complementando mi experiencia práctica con formación específica en Project Management, mejora de procesos y metodologías de gestión, con el objetivo de llevar todo lo aprendido en proyectos reales a un entorno profesional donde pueda seguir creciendo y asumir nuevos retos.</p>
+              <p lang="en">I am complementing my hands-on experience with formal training in Project Management, process improvement and management methodologies, with the goal of bringing what I have learned through real-world projects into a professional environment where I can continue growing and taking on new challenges.</p>
+              <p lang="es">Busco oportunidades donde pueda aportar desde el primer día, aprender rápido y convertir objetivos en proyectos y resultados.</p>
+              <p lang="en">I am looking for opportunities where I can contribute from day one, learn quickly and turn objectives into projects and measurable results.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRINCIPLES -->
+    <div class="about-principles">
+      <div class="about-subheading"><span lang="es">Cómo trabajo</span><span lang="en">How I work</span></div>
+      <div class="principles-grid">
+        <div class="principle">
+          <h4><span lang="es">Iniciativa</span><span lang="en">Initiative</span></h4>
+          <p><span lang="es">Busco oportunidades de mejorar, crecer y aportar valor en lugar de esperar a que aparezcan.</span><span lang="en">I look for opportunities to improve, grow and create value rather than waiting for them to appear.</span></p>
+        </div>
+        <div class="principle">
+          <h4><span lang="es">Mejora continua</span><span lang="en">Continuous Improvement</span></h4>
+          <p><span lang="es">Busco constantemente formas mejores, más simples y eficientes de trabajar.</span><span lang="en">I constantly look for better, simpler and more efficient ways of working.</span></p>
+        </div>
+        <div class="principle">
+          <h4><span lang="es">Orientación a resultados</span><span lang="en">Results-driven</span></h4>
+          <p><span lang="es">Me centro en los resultados y el impacto medible, no solo en la actividad.</span><span lang="en">I focus on outcomes and measurable impact, not just activity.</span></p>
+        </div>
+        <div class="principle">
+          <h4><span lang="es">Curiosidad / Aprendizaje</span><span lang="en">Continuous Learning</span></h4>
+          <p><span lang="es">Busco activamente nuevo conocimiento, herramientas y perspectivas para seguir mejorando.</span><span lang="en">I actively seek new knowledge, tools and perspectives to keep improving.</span></p>
+        </div>
+        <div class="principle">
+          <h4><span lang="es">Responsabilidad</span><span lang="en">Ownership</span></h4>
+          <p><span lang="es">Asumo la responsabilidad de los resultados y me mantengo implicado hasta resolver el problema.</span><span lang="en">I take responsibility for outcomes and stay involved until the problem is solved.</span></p>
+        </div>
+        <div class="principle">
+          <h4><span lang="es">Pragmatismo</span><span lang="en">Pragmatism</span></h4>
+          <p><span lang="es">Valoro las soluciones prácticas que funcionan en el mundo real por encima de la complejidad innecesaria.</span><span lang="en">I value practical solutions that work in the real world over unnecessary complexity.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ANECDOTE -->
+    <div class="about-anecdote">
+      <div class="about-subheading"><span lang="es">Un reto real</span><span lang="en">A real challenge</span></div>
+      <p class="anecdote-lede">
+        <span lang="es">Cuando en Tandas Privadas pasamos de ~40 a más de 60 eventos al año, el reto no era técnico — era de diseño de operación.</span>
+        <span lang="en">When Tandas Privadas grew from ~40 to over 60 events a year, the challenge wasn't technical — it was operational design.</span>
+      </p>
+      <p>
+        <span lang="es">Con un equipo base de solo 3 personas, hacer más eventos "a pulmón" habría significado quemar al equipo o bajar la calidad. En vez de eso, redistribuí responsabilidades, renegocié condiciones con circuitos y proveedores, y automaticé las tareas que no necesitaban criterio humano. El resultado no fue solo crecer un 50% en ventas — fue demostrar que el equipo podía absorber ese crecimiento sin que la operación se rompiera por las costuras.</span>
+        <span lang="en">With a core team of only 3 people, simply doing more events by brute force would have burned out the team or hurt quality. Instead, I redistributed responsibilities, renegotiated terms with circuits and suppliers, and automated the tasks that didn't need human judgement. The result wasn't just 50% sales growth — it was proving the team could absorb that growth without the operation breaking at the seams.</span>
+      </p>
+      <p class="anecdote-footnote">
+        <span lang="es">No es la primera vez que diseño algo desde cero: con 19 años ya había lanzado <strong>Kaimur Straps</strong>, mi propio proyecto de correas de caucho para relojes, fabricadas a medida para encajar a la perfección en la caja sin alterar el cierre original de cada reloj.</span>
+        <span lang="en">It's not the first time I've designed something from scratch: at 19, I had already launched <strong>Kaimur Straps</strong>, my own project making rubber watch straps, custom-engineered to fit perfectly into the watch case while preserving each watch's original clasp.</span>
+      </p>
+    </div>
+
+    <!-- RACELAB -->
+    <div class="about-racelab">
+      <div class="about-subheading"><span lang="es">Más allá de Tandas Privadas</span><span lang="en">Beyond Tandas Privadas</span></div>
+      <p>
+        <span lang="es">En paralelo, estoy construyendo <strong>RaceLab</strong>, una empresa dedicada a track days y tests de competición para conductores principiantes y experimentados, con un objetivo claro: crecer hasta tener un equipo de carreras oficial a nivel nacional e internacional. RaceLab incluye también una división dedicada exclusivamente al simracing y su formación.</span>
+        <span lang="en">In parallel, I'm building <strong>RaceLab</strong>, a company focused on track days and competition testing for beginner and experienced drivers, with a clear goal: growing into an official national and international racing team. RaceLab also includes a division dedicated exclusively to simracing and simracing training.</span>
+      </p>
+    </div>
+
+    <!-- BEYOND WORK -->
+    <div class="about-interests">
+      <div class="about-subheading"><span lang="es">Fuera del trabajo</span><span lang="en">Beyond work</span></div>
+      <div class="interests-row">
+        <span class="interest-chip">Simracing</span>
+        <span class="interest-chip">Windsurf</span>
+        <span class="interest-chip"><span lang="es">Pádel</span><span lang="en">Padel</span></span>
+        <span class="interest-chip"><span lang="es">Viajar</span><span lang="en">Travel</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience" class="section section--dark gated">
+  <div class="section-inner reveal">
+    <div class="eyebrow">02 · <span lang="es">Experiencia profesional</span><span lang="en">Professional Experience</span></div>
+    <h2><span lang="es">Qué he hecho.</span><span lang="en">What I've done.</span></h2>
+
+    <div class="job job--compact">
+      <div class="job-meta">
+        <div class="job-dates">Jan 2025 — <span lang="es">Presente</span><span lang="en">Present</span></div>
+        <h3>Board Member</h3>
+        <div class="job-company">CDE Tandas Privadas · Madrid, España</div>
+        <div class="job-tags">Strategy · Governance · Growth</div>
+      </div>
+      <div class="job-body">
+        <ul class="job-resp job-resp--single">
+          <li><span lang="es">Contribuyo a las decisiones estratégicas del negocio, las iniciativas de crecimiento y la planificación a largo plazo.</span><span lang="en">Contribute to strategic business decisions, growth initiatives and long-term planning.</span></li>
+        </ul>
+        <p class="job-transition-note">
+          <span lang="es">Tras una reestructuración de la compañía, pasé de la gestión operativa diaria a este rol de mayor responsabilidad estratégica dentro del consejo.</span>
+          <span lang="en">Following a company restructuring, I moved from day-to-day operational management into this role of greater strategic responsibility on the board.</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="job-meta">
+        <div class="job-dates">Sep 2024 — Mar 2026</div>
+        <h3>Project & Operations Manager</h3>
+        <div class="job-company">CDE Tandas Privadas · Madrid, España</div>
+        <div class="job-tags">Operations · Project Management<br>Business Development · Events</div>
+      </div>
+      <div class="job-body">
+        <p lang="es">Responsable de la planificación, estrategia comercial y ejecución de la operación de una empresa de eventos de motorsport, coordinando circuitos, patrocinadores, proveedores y equipo.</p>
+        <p lang="en">Responsible for the planning, commercial strategy and execution of a motorsport events business, coordinating circuits, sponsors, suppliers and team.</p>
+        <ul class="job-resp">
+          <li><span lang="es">Dirigí la planificación, estrategia comercial y ejecución de más de 200 eventos de motorsport en toda España, coordinando circuitos, patrocinadores, proveedores y operaciones in situ</span><span lang="en">Directed the planning, commercial strategy and execution of 200+ motorsport events across Spain, coordinating race circuits, sponsors, suppliers and on-site operations</span></li>
+          <li><span lang="es">Incrementé el calendario anual de eventos un +50%, impulsando el crecimiento del negocio y ampliando la base de clientes</span><span lang="en">Increased the annual event calendar +50%, driving business growth and expanding the customer base</span></li>
+          <li><span lang="es">Gestioné presupuestos, estrategia de precios y viabilidad financiera de los eventos, dando soporte a decisiones clave del negocio</span><span lang="en">Managed budgeting, pricing strategy and financial viability for events, supporting key business decisions</span></li>
+          <li><span lang="es">Negocié acuerdos comerciales con los principales circuitos de España, definiendo calendarios de eventos y condiciones comerciales</span><span lang="en">Negotiated commercial agreements with major racing circuits across Spain, defining event calendars and commercial conditions</span></li>
+          <li><span lang="es">Conseguí acuerdos de patrocinio estratégicos con marcas líderes de automoción, aumentando el valor de los eventos y el posicionamiento de marca</span><span lang="en">Secured strategic sponsorship agreements with leading automotive brands, increasing event value and strengthening brand positioning</span></li>
+          <li><span lang="es">Coordiné un equipo base de 3 personas y entre 8 y 12 miembros de staff por evento, garantizando una ejecución fluida en entornos de alta exigencia</span><span lang="en">Coordinated a core team of 3 employees and 8-12 event staff, ensuring seamless execution in fast-paced environments</span></li>
+          <li><span lang="es">Logré el 100% de ocupación en más del 80% de los eventos</span><span lang="en">Achieved 100% occupancy in over 80% of events</span></li>
+          <li><span lang="es">Hice crecer la comunidad en redes sociales en 12.000 seguidores orgánicos en un año, sin publicidad de pago</span><span lang="en">Grew the company's social media community by 12,000 organic followers in one year, without paid advertising</span></li>
+          <li><span lang="es">Automaticé flujos de trabajo operativos clave, mejorando la eficiencia, la escalabilidad y el control de costes</span><span lang="en">Automated key operational workflows, improving efficiency, scalability and cost control</span></li>
+          <li><span lang="es">Incorporé 5 nuevos circuitos al calendario anual, ampliando la capacidad y cobertura de la operación</span><span lang="en">Added 5 new circuits to the annual calendar, expanding the operation's capacity and coverage</span></li>
+          <li><span lang="es">Creé y lancé una nueva modalidad de eventos, ampliando la oferta y permitiendo llegar a nuevos perfiles de clientes</span><span lang="en">Created and launched a new event format, expanding the offering and reaching new customer profiles</span></li>
+        </ul>
+        <div class="job-results">
+          <div><div class="job-result-num">200+</div><div class="job-result-label"><span lang="es">eventos gestionados</span><span lang="en">events managed</span></div></div>
+          <div><div class="job-result-num">≈ +50%</div><div class="job-result-label"><span lang="es">calendario anual</span><span lang="en">annual calendar</span></div></div>
+          <div><div class="job-result-num">+12K</div><div class="job-result-label"><span lang="es">seguidores orgánicos</span><span lang="en">organic followers</span></div></div>
+          <div><div class="job-result-num">&gt;80%</div><div class="job-result-label"><span lang="es">eventos con ocupación 100%</span><span lang="en">events at 100% occupancy</span></div></div>
+          <div><div class="job-result-num">3 + 8–12</div><div class="job-result-label"><span lang="es">equipo base + staff/evento</span><span lang="en">core team + staff/event</span></div></div>
+          <div><div class="job-result-num">€400K+</div><div class="job-result-label"><span lang="es">presupuesto anual gestionado</span><span lang="en">annual budget managed</span></div></div>
+          <div><div class="job-result-num">+5</div><div class="job-result-label"><span lang="es">circuitos incorporados</span><span lang="en">new circuits added</span></div></div>
+          <div><div class="job-result-num">1</div><div class="job-result-label"><span lang="es">nueva modalidad creada y lanzada</span><span lang="en">new event format launched</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="job-meta">
+        <div class="job-dates">Feb 2022 — Aug 2024</div>
+        <h3>E-commerce & Digital Operations Specialist</h3>
+        <div class="job-company">Accesorios Todoterreno SLNE (Más4x4) · Madrid, España</div>
+        <div class="job-tags">Digital Business · E-commerce<br>Operations · SEO</div>
+      </div>
+      <div class="job-body">
+        <p lang="es">Gestión y optimización de un e-commerce especializado en accesorios para vehículos 4x4, con más de 15.000 productos sobre WordPress.</p>
+        <p lang="en">Management and optimisation of an e-commerce business specialising in 4x4 accessories, with more than 15,000 products on WordPress.</p>
+        <ul class="job-resp">
+          <li><span lang="es">Gestioné y optimicé un catálogo de e-commerce de más de 15.000 productos sobre WordPress</span><span lang="en">Managed and optimized an e-commerce catalogue of 15,000+ products using WordPress</span></li>
+          <li><span lang="es">Lideré la reestructuración de la tienda online, rediseñando categorías, filtros y fichas de producto</span><span lang="en">Led restructuring of the online store, redesigning categories, filters and product pages</span></li>
+          <li><span lang="es">Ejecuté estrategias SEO que incrementaron la visibilidad orgánica, el tráfico web y los ingresos online</span><span lang="en">Executed SEO strategies that significantly increased organic visibility, website traffic and online revenue</span></li>
+          <li><span lang="es">Mejoré la tasa de conversión mediante optimización UX y mejoras en el customer journey</span><span lang="en">Improved website conversion rate through UX optimization and customer journey enhancements</span></li>
+          <li><span lang="es">Coordiné las operaciones de almacén y los procesos de pedidos para una logística eficiente</span><span lang="en">Coordinated warehouse operations and order fulfillment processes for efficient logistics</span></li>
+          <li><span lang="es">Gestioné email marketing y monitoricé el rendimiento con Google Analytics y Search Console</span><span lang="en">Managed email marketing campaigns and monitored performance using Google Analytics and Search Console</span></li>
+          <li><span lang="es">Automaticé procesos internos, mejorando la eficiencia operativa y la escalabilidad</span><span lang="en">Automated internal processes, improving operational efficiency and scalability</span></li>
+          <li><span lang="es">Trabajé directamente con la propiedad de la empresa definiendo estrategia digital y prioridades de negocio</span><span lang="en">Worked directly with the company owner to define digital strategy and business priorities</span></li>
+        </ul>
+        <div class="job-results">
+          <div><div class="job-result-num">15,000+</div><div class="job-result-label"><span lang="es">productos</span><span lang="en">products</span></div></div>
+          <div><div class="job-result-num">↑</div><div class="job-result-label"><span lang="es">tráfico orgánico</span><span lang="en">organic traffic</span></div></div>
+          <div><div class="job-result-num">↑</div><div class="job-result-label"><span lang="es">conversión</span><span lang="en">conversion</span></div></div>
+          <div><div class="job-result-num">↑</div><div class="job-result-label"><span lang="es">ingresos online</span><span lang="en">online revenue</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="job job--compact">
+      <div class="job-meta">
+        <div class="job-dates">Jun 2019 — Jun 2021</div>
+        <h3>E-commerce & Digital Marketing Consultant</h3>
+        <div class="job-company"><span lang="es">Freelance</span><span lang="en">Freelance</span></div>
+        <div class="job-tags">Shopify · WordPress · SEO · Ads</div>
+      </div>
+      <div class="job-body">
+        <ul class="job-resp job-resp--single">
+          <li><span lang="es">Diseñé y desarrollé tiendas online a medida con Shopify y WordPress</span><span lang="en">Designed and developed custom e-commerce websites using Shopify and WordPress</span></li>
+          <li><span lang="es">Implementé estrategias SEO y optimicé campañas de Google Ads y Meta Ads</span><span lang="en">Implemented SEO strategies, optimized Google Ads and Meta Ads campaigns</span></li>
+          <li><span lang="es">Gestioné proyectos de marketing digital de principio a fin, desde la web hasta la captación de clientes</span><span lang="en">Managed end-to-end digital marketing projects, from website creation to customer acquisition</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="section gated">
+  <div class="section-inner reveal">
+    <div class="eyebrow">03 · <span lang="es">Proyectos</span><span lang="en">Projects</span></div>
+    <h2><span lang="es">Resultados en contexto.</span><span lang="en">Results in context.</span></h2>
+    <div class="project-grid">
+      <a href="#case-tandas" class="project-card">
+        <div class="project-num">01</div>
+        <h3>Tandas Privadas</h3>
+        <div class="project-sub"><span lang="es">Escalar una operación de eventos de automoción</span><span lang="en">Scaling an automotive events operation</span></div>
+        <div class="project-tags">OPERATIONS · PROJECT MANAGEMENT · BUSINESS DEVELOPMENT</div>
+        <div class="project-stats">
+          <div class="project-stat">40→60+<span lang="es">eventos/año</span><span lang="en">events/year</span></div>
+          <div class="project-stat">≈+50%<span lang="es">ventas</span><span lang="en">sales</span></div>
+          <div class="project-stat">+12K<span lang="es">seguidores</span><span lang="en">followers</span></div>
+        </div>
+        <div class="project-link"><span lang="es">Ver caso de estudio →</span><span lang="en">View case study →</span></div>
+      </a>
+      <a href="#case-mas4x4" class="project-card">
+        <div class="project-num">02</div>
+        <h3>Accesorios Todoterreno SLNE</h3>
+        <div class="project-sub"><span lang="es">Transformación de un e-commerce</span><span lang="en">E-commerce transformation</span></div>
+        <div class="project-tags">DIGITAL BUSINESS · OPERATIONS · SEO</div>
+        <div class="project-stats">
+          <div class="project-stat">15K+<span lang="es">productos</span><span lang="en">products</span></div>
+          <div class="project-stat">↑<span lang="es">tráfico</span><span lang="en">traffic</span></div>
+          <div class="project-stat">↑<span lang="es">ventas</span><span lang="en">sales</span></div>
+        </div>
+        <div class="project-link"><span lang="es">Ver caso de estudio →</span><span lang="en">View case study →</span></div>
+      </a>
+    </div>
+
+    <!-- CASE STUDY 01 -->
+    <div class="case" id="case-tandas" style="margin-top:96px;">
+      <div class="case-head">
+        <div>
+          <div class="eyebrow"><span lang="es">Caso de estudio</span><span lang="en">Case study</span> · 01</div>
+          <h2 style="margin-bottom:0;">Tandas Privadas</h2>
+        </div>
+      </div>
+      <div class="case-cols">
+        <div class="case-block">
+          <h4><span lang="es">El reto</span><span lang="en">The challenge</span></h4>
+          <p lang="es">Escalar el número de eventos, clientes y ventas manteniendo una operación eficiente y evitando que el crecimiento implicase un aumento proporcional de costes y carga de trabajo.</p>
+          <p lang="en">Scale the number of events, customers and sales while maintaining an efficient operation and avoiding a proportional increase in costs and workload.</p>
+        </div>
+        <div class="case-block">
+          <h4><span lang="es">Mi enfoque</span><span lang="en">My approach</span></h4>
+          <ul class="case-list">
+            <li><span lang="es">Optimización de equipos y redistribución de responsabilidades</span><span lang="en">Team optimisation and responsibility allocation</span></li>
+            <li><span lang="es">Gestión presupuestaria y negociación con proveedores</span><span lang="en">Budget management and supplier negotiation</span></li>
+            <li><span lang="es">Optimización de procesos</span><span lang="en">Process optimisation</span></li>
+            <li><span lang="es">Desarrollo de sponsors</span><span lang="en">Sponsorship development</span></li>
+            <li><span lang="es">Mejora de la experiencia del cliente</span><span lang="en">Customer experience improvement</span></li>
+            <li><span lang="es">Estrategia de contenidos</span><span lang="en">Content strategy</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="case-results">
+        <div class="case-result">~40→60+<span><span lang="es">eventos/año</span><span lang="en">events/year</span></span></div>
+        <div class="case-result">≈+50%<span><span lang="es">ventas</span><span lang="en">sales</span></span></div>
+        <div class="case-result">+12K<span><span lang="es">seguidores</span><span lang="en">followers</span></span></div>
+        <div class="case-result">&gt;80%<span><span lang="es">eventos al 100%</span><span lang="en">events at full occupancy</span></span></div>
+        <div class="case-result">32K<span><span lang="es">comunidad</span><span lang="en">community</span></span></div>
+      </div>
+      <p class="case-quote">
+        <span lang="es">Escalar no consiste simplemente en hacer más. Consiste en crear una operación capaz de hacer más sin generar proporcionalmente más complejidad.</span>
+        <span lang="en">Scaling is not simply about doing more. It is about creating an operation capable of doing more without creating proportionally more complexity.</span>
+      </p>
+      <div class="testimonial">
+        <p><span lang="es">"Carlos fue una pieza clave en el crecimiento de Tandas Privadas. Destacaría especialmente su capacidad para organizar equipos, resolver problemas y buscar continuamente formas de hacer la operación más eficiente."</span><span lang="en">"Carlos was a key part of Tandas Privadas' growth. I'd especially highlight his ability to organise teams, solve problems and continuously look for ways to make the operation more efficient."</span></p>
+        <div class="testimonial-author">Jorge — <span lang="es">Director</span><span lang="en">Director</span>, CDE Tandas Privadas</div>
+      </div>
+      <div class="sponsors-block">
+        <div class="sponsors-label"><span lang="es">Patrocinadores con los que trabajé</span><span lang="en">Sponsors I worked with</span></div>
+        <div class="sponsors-row">
+          <img src="img/sponsors/yokohama.png" alt="Yokohama" class="sponsor-logo">
+          <img src="img/sponsors/ravenol.png" alt="Ravenol" class="sponsor-logo">
+          <img src="img/sponsors/chemical-race.png" alt="Chemical Race Antifreeze" class="sponsor-logo">
+          <img src="img/sponsors/genevo.png" alt="Genevo Radar Detectors" class="sponsor-logo">
+          <img src="img/sponsors/shelter.png" alt="Shelter Garage Club" class="sponsor-logo sponsor-logo--tall">
+        </div>
+      </div>
+    </div>
+
+    <!-- EVENTS GALLERY -->
+    <div class="events-gallery">
+      <div class="eyebrow"><span lang="es">Galería</span><span lang="en">Gallery</span> · <span lang="es">algunos eventos</span><span lang="en">a few events</span></div>
+      <div class="gallery-grid">
+        <video src="video/clip-track-1.mp4" autoplay muted loop playsinline aria-label="Track day clip"></video>
+        <img src="img/events/photo-pitlane-team.jpg" alt="Pit lane briefing" loading="lazy">
+        <img src="img/events/photo-drone-briefing.jpg" alt="Carlos preparing FPV coverage at Circuito del Jarama" loading="lazy" class="tile-top">
+        <video src="video/clip-track-2.mp4" autoplay muted loop playsinline aria-label="On-track clip"></video>
+        <img src="img/events/photo-master-drivers-paddock.jpg" alt="Master Drivers paddock" loading="lazy" class="tile-right">
+        <video src="video/clip-track-3.mp4" autoplay muted loop playsinline aria-label="Master Drivers paddock clip"></video>
+      </div>
+    </div>
+
+    <!-- CASE STUDY 02 -->
+    <div class="case" id="case-mas4x4">
+      <div class="case-head">
+        <div>
+          <div class="eyebrow"><span lang="es">Caso de estudio</span><span lang="en">Case study</span> · 02</div>
+          <h2 style="margin-bottom:0;">Accesorios Todoterreno SLNE</h2>
+        </div>
+      </div>
+      <div class="case-cols">
+        <div class="case-block">
+          <h4><span lang="es">El reto</span><span lang="en">The challenge</span></h4>
+          <p lang="es">Transformar una web con miles de productos desorganizados en una plataforma de e-commerce más clara, navegable y preparada para generar tráfico y ventas.</p>
+          <p lang="en">Transform a website with thousands of poorly organised products into a clearer, more intuitive e-commerce platform capable of generating traffic and sales.</p>
+        </div>
+        <div class="case-block">
+          <h4><span lang="es">Enfoque</span><span lang="en">Approach</span></h4>
+          <div class="case-approach-steps">
+            <div class="step"><div class="step-num">01</div><div><strong><span lang="es">Analizar</span><span lang="en">Analyse</span></strong> — <span lang="es">identificar problemas de navegación, estructura, SEO y conversión</span><span lang="en">identify navigation, structure, SEO and conversion issues</span></div></div>
+            <div class="step"><div class="step-num">02</div><div><strong><span lang="es">Reestructurar</span><span lang="en">Restructure</span></strong> — <span lang="es">rediseñar categorías, filtros, menús y arquitectura</span><span lang="en">redesign categories, filters, menus and architecture</span></div></div>
+            <div class="step"><div class="step-num">03</div><div><strong><span lang="es">Optimizar</span><span lang="en">Optimise</span></strong> — <span lang="es">mejorar productos, contenidos, SEO y campañas</span><span lang="en">improve products, content, SEO and campaigns</span></div></div>
+            <div class="step"><div class="step-num">04</div><div><strong><span lang="es">Conectar</span><span lang="en">Connect</span></strong> — <span lang="es">mejorar la coordinación entre web, clientes, pedidos y almacén</span><span lang="en">improve coordination between web, customers, orders and warehouse</span></div></div>
+            <div class="step"><div class="step-num">05</div><div><strong><span lang="es">Medir</span><span lang="en">Measure</span></strong> — <span lang="es">analizar tráfico, conversiones y resultados comerciales</span><span lang="en">analyse traffic, conversions and commercial results</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="case-results">
+        <div class="case-result">↑<span><span lang="es">tráfico orgánico</span><span lang="en">organic traffic</span></span></div>
+        <div class="case-result">↑<span><span lang="es">ventas</span><span lang="en">sales</span></span></div>
+        <div class="case-result">↑<span><span lang="es">conversión</span><span lang="en">conversion</span></span></div>
+        <div class="case-result">↑<span><span lang="es">ticket medio</span><span lang="en">avg. order value</span></span></div>
+        <div class="case-result">↑<span><span lang="es">clientes</span><span lang="en">customers</span></span></div>
+      </div>
+      <div class="testimonial">
+        <p><span lang="es">"Carlos siempre destacó por su iniciativa y su capacidad para detectar problemas y encontrar soluciones. Su trabajo ayudó a mejorar tanto la estructura de la web como diferentes procesos del negocio, siempre con una clara orientación a resultados."</span><span lang="en">"Carlos always stood out for his initiative and his ability to spot problems and find solutions. His work helped improve both the website's structure and various business processes, always with a clear focus on results."</span></p>
+        <div class="testimonial-author">Alfonso — <span lang="es">Director Comercial</span><span lang="en">Commercial Director</span>, Accesorios Todoterreno SLNE</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW I WORK ============ -->
+<section id="how-i-work" class="section section--dark gated">
+  <div class="section-inner reveal">
+    <div class="eyebrow">04 · <span lang="es">Cómo trabajo</span><span lang="en">How I Work</span></div>
+    <h2><span lang="es">De la idea a la ejecución.</span><span lang="en">From idea to execution.</span></h2>
+    <div class="flow">
+      <div class="flow-step">
+        <div class="flow-num">01</div>
+        <div>
+          <div class="flow-tag"><span lang="es">Entender el objetivo</span><span lang="en">Understand the objective</span></div>
+          <h3>Discover</h3>
+          <p><span lang="es">Identificar el problema, la oportunidad, los objetivos y los stakeholders.</span><span lang="en">Identify the problem, opportunity, objectives and stakeholders.</span></p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">02</div>
+        <div>
+          <div class="flow-tag"><span lang="es">Estructurar el proyecto</span><span lang="en">Structure the project</span></div>
+          <h3>Plan</h3>
+          <p><span lang="es">Definir alcance, prioridades, recursos, tiempos y riesgos.</span><span lang="en">Define scope, priorities, resources, timelines and risks.</span></p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">03</div>
+        <div>
+          <div class="flow-tag"><span lang="es">Hacerlo realidad</span><span lang="en">Make it happen</span></div>
+          <h3>Execute</h3>
+          <p><span lang="es">Coordinar personas, proveedores, recursos y entregables.</span><span lang="en">Coordinate people, suppliers, resources and deliverables.</span></p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">04</div>
+        <div>
+          <div class="flow-tag"><span lang="es">Medir el rendimiento</span><span lang="en">Track performance</span></div>
+          <h3>Measure</h3>
+          <p><span lang="es">Analizar KPIs, resultados y desviaciones.</span><span lang="en">Analyse KPIs, results and deviations.</span></p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">05</div>
+        <div>
+          <div class="flow-tag"><span lang="es">Hacerlo mejor</span><span lang="en">Make it better</span></div>
+          <h3>Improve</h3>
+          <p><span lang="es">Identificar oportunidades de mejora y optimizar procesos.</span><span lang="en">Identify opportunities for improvement and optimise processes.</span></p>
+        </div>
+      </div>
+    </div>
+    <p class="flow-close">
+      <span lang="es">Metodología estructurada. Ejecución práctica. Mejora continua.</span>
+      <span lang="en">Structured methodology. Hands-on execution. Continuous improvement.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ============ CTA: personal → recruiter ============ -->
+<section id="cta-b" class="cta-panel">
+  <div class="section-inner reveal" style="text-align:center;">
+    <p class="cta-text">
+      <span lang="es">¿Buscas el perfil orientado a resultados y skills?</span>
+      <span lang="en">Looking for the results- and skills-oriented profile?</span>
+    </p>
+    <button class="btn btn-outline" id="ctaBBtn">
+      <span lang="es">Ver perfil profesional →</span><span lang="en">View professional profile →</span>
+    </button>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section gated">
+  <div class="section-inner reveal">
+    <div class="eyebrow">05 · <span lang="es">Habilidades</span><span lang="en">Skills</span></div>
+    <h2><span lang="es">Qué sé hacer.</span><span lang="en">What I know how to do.</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h4>Project Management</h4>
+        <ul>
+          <li>Project Planning</li><li>Scope Management</li><li>Stakeholder Management</li>
+          <li>Risk Management</li><li>Budget Management</li><li>Team Coordination</li>
+          <li>Process Improvement</li><li>Agile</li><li>Scrum</li><li>Kanban</li><li>Lean Six Sigma</li><li>Asana</li><li>Excel <span lang="es">avanzado</span><span lang="en">(advanced)</span></li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h4>Operations</h4>
+        <ul>
+          <li>Operations Management</li><li>Supplier Management</li><li>Event Operations</li>
+          <li>Cost Optimisation</li><li>Workflow Improvement</li><li>Logistics</li>
+          <li>Team Coordination</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h4>Business Development</h4>
+        <ul>
+          <li>Business Development</li><li>Negotiation</li><li>Commercial Strategy</li>
+          <li>Partnerships</li><li>Market Analysis</li><li>Customer Management</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h4>Digital Business</h4>
+        <ul>
+          <li>E-commerce</li><li>SEO</li><li>Google Analytics</li>
+          <li>Google Search Console</li><li>Google Ads · Meta Ads</li>
+          <li>Email Marketing</li><li>CRM</li><li>Social Media</li>
+          <li>WordPress</li><li>Shopify</li>
+        </ul>
+      </div>
+    </div>
+    <div class="languages-row">
+      <span class="languages-label"><span lang="es">Idiomas</span><span lang="en">Languages</span></span>
+      <span class="lang-chip"><span lang="es">Español — Nativo</span><span lang="en">Spanish — Native</span></span>
+      <span class="lang-chip"><span lang="es">Inglés — B2 · preparando certificación C1</span><span lang="en">English — B2 · preparing for C1 certification</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section id="certifications" class="section gated">
+  <div class="section-inner reveal">
+    <div class="eyebrow">06 · <span lang="es">Formación & certificaciones</span><span lang="en">Education & Certifications</span></div>
+    <h2><span lang="es">Formalizando la experiencia.</span><span lang="en">Formalising the experience.</span></h2>
+
+    <h3 class="certs-subhead"><span lang="es">Educación</span><span lang="en">Education</span></h3>
+    <div class="certs">
+      <div class="cert">
+        <div>
+          <h3><span lang="es">MBA & Marketing Digital</span><span lang="en">MBA & Digital Marketing</span></h3>
+          <div class="cert-org">ThePowerMBA</div>
+        </div>
+        <div class="cert-status">2020 – 2021</div>
+        <div class="cert-tags">Business Strategy · Business Development · Strategic Planning · Financial Management · Marketing Strategy</div>
+      </div>
+      <div class="cert">
+        <div>
+          <h3>BBA <span lang="es">(ADE en español)</span><span lang="en">(Business Administration)</span></h3>
+          <div class="cert-org">Universidad Europea Valencia</div>
+        </div>
+        <div class="cert-status">2016 – 2020</div>
+        <div class="cert-tags">Business Management · Financial Management · Operations Management · Strategic Planning · Business Analysis</div>
+      </div>
+    </div>
+
+    <h3 class="certs-subhead"><span lang="es">Cursos y certificaciones</span><span lang="en">Courses & Certificates</span></h3>
+    <div class="certs">
+      <div class="cert">
+        <div>
+          <h3>Google Project Management<br>Certificate</h3>
+          <div class="cert-org">Google · Coursera</div>
+        </div>
+        <div class="cert-status">2026</div>
+        <div class="cert-tags">Project Management · Agile · Risk Management · Stakeholder Management · Project Planning</div>
+      </div>
+      <div class="cert">
+        <div>
+          <h3>Lean Six Sigma Green Belt</h3>
+          <div class="cert-org">Kennesaw State University</div>
+        </div>
+        <div class="cert-status">2026</div>
+        <div class="cert-tags">Process Improvement · Continuous Improvement · Problem Solving</div>
+      </div>
+      <div class="cert">
+        <div>
+          <h3><span lang="es">Marketing Digital</span><span lang="en">Digital Marketing</span></h3>
+          <div class="cert-org">CEI</div>
+        </div>
+        <div class="cert-status">2019 – 2020</div>
+        <div class="cert-tags">Digital Marketing · SEO · Google Ads · Web Analytics · E-commerce</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CV ============ -->
+<section id="cv" class="section section--dark gated">
+  <div class="section-inner reveal">
+    <div class="eyebrow">07 · CV</div>
+    <h2><span lang="es">¿Quieres verlo todo?</span><span lang="en">Want the full picture?</span></h2>
+    <p class="lede" lang="es">Consulta o descarga mi CV completo para conocer mi experiencia profesional, formación y competencias.</p>
+    <p class="lede" lang="en">Download my full CV for a detailed overview of my professional experience, education and skills.</p>
+    <div class="cv-box">
+      <a href="files/cv-carlos-navarro.pdf" class="btn btn-primary" download>
+        <span lang="es">Descargar CV ↓</span><span lang="en">Download CV ↓</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA: recruiter → personal ============ -->
+<section id="cta-a" class="cta-panel">
+  <div class="section-inner reveal" style="text-align:center;">
+    <p class="cta-text">
+      <span lang="es">¿Quieres conocer mejor a Carlos, más allá de los resultados?</span>
+      <span lang="en">Want to know more about Carlos, beyond the results?</span>
+    </p>
+    <button class="btn btn-outline" id="ctaABtn">
+      <span lang="es">Conocer a Carlos →</span><span lang="en">Get to know Carlos →</span>
+    </button>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section section--dark gated">
+  <div class="section-inner reveal">
+    <div class="eyebrow">08 · <span lang="es">Contacto</span><span lang="en">Contact</span></div>
+    <h2><span lang="es">Construyamos algo.</span><span lang="en">Let's build something.</span></h2>
+    <p class="lede" lang="es">¿Buscas un perfil orientado a proyectos, operaciones y desarrollo de negocio? Estoy abierto a nuevas oportunidades profesionales.</p>
+    <p class="lede" lang="en">Looking for someone with a project, operations and business-oriented mindset? I'm open to new professional opportunities.</p>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/carlos-navarro-solaz/" class="contact-link" target="_blank" rel="noopener">LinkedIn <span class="arrow">→</span></a>
+      <a href="mailto:cnsolaz@gmail.com" class="contact-link">Email <span class="arrow">→</span></a>
+      <a href="tel:+34610574615" class="contact-link">+34 610 574 615 <span class="arrow">→</span></a>
+      <a href="#cv" class="contact-link"><span lang="es">Descargar CV</span><span lang="en">Download CV</span> <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Carlos Navarro</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
